@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment and Credentials
+.env
+lms_creds.txt
+credentials.json
+session.json
+.session/
+
+# Scraper output & temporary files
+downloads/
+temp/
+.puppeteer_cache/
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

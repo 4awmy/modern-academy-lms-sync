@@ -1,0 +1,29 @@
+{
+  "name": "modern-academy-lms-sync",
+  "version": "1.0.0",
+  "description": "Automated sync and organizer for Modern Academy LMS (Moodle) course materials and assignments",
+  "main": "index.js",
+  "bin": {
+    "modern-lms-sync": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "sync": "node index.js sync",
+    "discover": "node index.js discover"
+  },
+  "keywords": [
+    "moodle",
+    "lms",
+    "modern-academy",
+    "scraper",
+    "sync",
+    "study-organizer",
+    "automation"
+  ],
+  "author": "4awmy <o.metwall06131@student.aast.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^22.9.0"
+  }
+}
